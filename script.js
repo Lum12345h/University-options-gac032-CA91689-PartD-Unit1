@@ -2,61 +2,61 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const universitiesDB = [
         {
-            name: "Tec de Monterrey, Guadalajara Campus",
+            name: "Tecnológico de Monterrey, Campus Guadalajara",
             location: "Zapopan, Jalisco",
             category: ["business", "tech"],
             careers: ["Business Strategy", "Industrial Eng.", "Computer Systems"]
         },
         {
-            name: "Panamerican University, Guadalajara",
+            name: "Universidad Panamericana Guadalajara",
             location: "Zapopan, Jalisco",
             category: ["business", "tech"],
             careers: ["Business Mgmt.", "Finance", "Engineering"]
         },
         {
-            name: "ITESO, Jesuit University",
+            name: "ITESO, Universidad Jesuita de Guadalajara",
             location: "Tlaquepaque, Jalisco",
             category: ["tech", "business"],
             careers: ["Network Eng.", "Int. Business", "Management"]
         },
         {
-            name: "University of Guadalajara (UdeG)",
+            name: "Universidad de Guadalajara",
             location: "Guadalajara, Jalisco",
             category: ["social", "business", "tech"],
             careers: ["Social Work", "Administration", "Engineering"]
         },
         {
-            name: "National Autonomous University of Mexico",
+            name: "Universidad Nacional Autónoma de México",
             location: "Coyoacán, CDMX",
             category: ["social", "tech", "business"],
             careers: ["Social Work", "Comp. Science", "Economics"]
         },
         {
-            name: "ITAM - Autonomous Technological Institute",
+            name: "ITAM - Instituto Tecnológico Autónomo de México",
             location: "Álvaro Obregón, CDMX",
             category: ["business"],
             careers: ["Fund Manager", "Financial Direction", "Economics"]
         },
         {
-            name: "La Salle University",
+            name: "Universidad La Salle",
             location: "Cuauhtémoc, CDMX",
             category: ["business", "tech"],
             careers: ["Int. Business", "Cybernetics Eng.", "Management"]
         },
         {
-            name: "Tecmilenio University, Las Torres Campus",
+            name: "Tecmilenio campus Las Torres Monterrey",
             location: "Monterrey, Nuevo León",
             category: ["business", "tech"],
             careers: ["Business Admin.", "Software Eng."]
         },
         {
-            name: "Autonomous University of the State of Mexico",
+            name: "Universidad Autónoma del Estado de México",
             location: "Toluca, Edo. Méx",
             category: ["social", "business"],
             careers: ["Social Work", "Administration"]
         },
         {
-            name: "Technological Institute of Puebla",
+            name: "Instituto Tecnológico de Puebla",
             location: "Puebla, Puebla",
             category: ["tech"],
             careers: ["Industrial Eng.", "Business Mgmt."]
