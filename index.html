@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocational Orientation | GAC032 Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="dashboard-container">
+        <header class="main-header glass-panel">
+            <div class="profile-section">
+                <div class="avatar-circle">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <div class="student-info">
+                    <h1 class="student-name">Luis Humberto Montoya Herrera</h1>
+                    <div class="badges-container">
+                        <span class="badge id-badge"><i class="fa-solid fa-id-card"></i> GAC ID: CA91689</span>
+                        <span class="badge group-badge"><i class="fa-solid fa-users"></i> 11°A</span>
+                        <span class="badge subject-badge"><i class="fa-solid fa-book"></i> Vocational Orientation GAC032</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-controls">
+                <div id="clock" class="digital-clock">00:00:00</div>
+                <button id="theme-toggle" class="control-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <aside class="sidebar-panel glass-panel">
+                <div class="sidebar-header">
+                    <h2><i class="fa-solid fa-university"></i> Universities & Majors</h2>
+                </div>
+                <div class="filters-container">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">All</button>
+                        <button class="filter-btn" data-category="business">Business</button>
+                        <button class="filter-btn" data-category="tech">Tech / Eng</button>
+                        <button class="filter-btn" data-category="social">Social / Arts</button>
+                    </div>
+                </div>
+                <div id="university-list" class="university-list-scroll"></div>
+            </aside>
+
+            <section class="map-section glass-panel">
+                <div class="map-header">
+                    <h3><i class="fa-solid fa-map-location-dot"></i> Geospatial Visualization</h3>
+                    <div class="status-indicator">
+                        <span class="dot"></span> Online
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <iframe 
+                        src="https://www.google.com/maps/d/embed?mid=1axmYpe8uJ8fh49ibI3XsrmO3909GDIk&ehbc=2E312F" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer glass-panel">
+            <p>&copy; 2026 Luis Humberto Montoya Herrera. Vocational Orientation Project.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
